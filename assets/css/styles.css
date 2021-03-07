@@ -1,5 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+/*------------------main heading container*/
 
+#mainheadingcontainer {
+    position: relative; 
+    color: #fafafa;
+    right: 10px; 
+    font-family: "Exo",sans-serif;
+  
+}
 
+#gezelligcontainer {
+   position: absolute;
+   top: 10px;
+   left: 10px;  
+   padding: 5px;
+   background-color: transparent;
+   border: 2px solid hidden;
+}
 
 /*------------------Nav Bar*/
 
@@ -11,18 +28,56 @@
 
 #nav {
     margin: 0;
+    position: absolute;
+
 }
 
 #nav li {
-    font-size: 14px;
-    padding: 0;
+    font-size: 15px;
+    padding: 10px;
     display: inline;
+    font-family: "Exo",sans-serif;
+    
 }
 
-.inline-block {
-    display: inline-block;
+a:link {
+  color: #fff;
+  background-color: transparent;
+  text-decoration: none;
 }
 
 .uppercase {
     text-transform: uppercase;
+    margin: 0;
 }
+
+.divnav1 {
+    background-color: teal;
+    margin: 0;
+}
+
+.divnav2 {
+    background-color: maroon;
+    margin: 0;
+}
+
+.divnav3 {
+    background-color: #FFBF00;
+    margin: 0;
+}
+
+.divnav4 {
+    background-color: #C46210;
+    margin: 0;
+}
+
+/*------------------img*/
+img {
+    border: 2px solid black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: all .5s ease-in-out;
+    -moz-transform: all .5s ease-in-out;
+    -webkit-transform: all .5s ease-in-out;
+}
+
