@@ -23,12 +23,16 @@
 .navitems {
     height: 120px;
     text-align: center;
-    padding: 0;
+
+
+    
 }
 
 #nav {
-    margin: 0;
+    margin: 5px;
     position: absolute;
+    float: none;
+    text-align: left;
 
 }
 
@@ -72,12 +76,39 @@ a:link {
 }
 
 /*------------------img*/
-img {
+
+img{
+    width: 100%;
     border: 2px solid black;
-    background-repeat: no-repeat;
-    background-size: cover;
-    transform: all .5s ease-in-out;
-    -moz-transform: all .5s ease-in-out;
-    -webkit-transform: all .5s ease-in-out;
+    background: no-repeat center;
+    height: 10%;
+    object-fit: cover;
+    
+}
+    
+
+/*------------------general*/
+
+.sub-heading{
+    font-family: "Exo",sans-serif;
+    font-weight: 300;
+    color: #fff;
 }
 
+.inline-block{
+    display: inline-block;
+}
+
+/*------------------footer*/
+
+footer {
+    background-color: maroon;
+    color: #fafafa;
+    min-height: 70px;
+    margin: 10px;
+    font-size: medium;
+}
+
+footer ul{
+    
+}
