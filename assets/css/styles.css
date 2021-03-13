@@ -2,47 +2,64 @@
 /*------------------main heading container*/
 
 #mainheadingcontainer {
-    position: relative; 
-    color: #fafafa;
-    right: 10px; 
-    font-family: "Exo",sans-serif;
-  
-}
-
-#gezelligcontainer {
-   position: absolute;
+   position: relative;
    top: 10px;
    left: 10px;  
    padding: 5px;
    background-color: transparent;
    border: 2px solid hidden;
-   font-size: xx-small;
+  
 }
+
+.Gezellig{
+    font-family: "Exo",sans-serif;
+    color: #FFBF00;
+    font-weight: 700;
+    font-size: 30px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
+.doveicon{
+    color: #fafafa;
+}
+
+/*------------------img*/
+
+.imagecontainer img{
+    width: 100%;
+    padding-top: 0%;
+    border: 2px solid black;
+    background: no-repeat center;
+    background-size: contain; 
+}
+
 
 /*------------------Nav Bar*/
 
-.navitems {
+#nav {
     height: 120px;
     text-align: center;
-
-
-    
-}
-
-#nav {
     margin: 5px;
-    position: absolute;
-    float: none;
-    text-align: left;
+    position: absolute; 
+    margin-left: 0px;
+    padding: 0px;
+    margin-bottom: 5px;
+
 
 }
+
 
 #nav li {
     font-size: 15px;
     padding: 10px;
     display: inline;
-    font-family: "Exo",sans-serif;
-    
+    font-family: "Exo",sans-serif;  
+}
+
+#nav li span, a{
+    color: #fff;
 }
 
 a:link {
@@ -51,43 +68,32 @@ a:link {
   text-decoration: none;
 }
 
-.uppercase {
-    text-transform: uppercase;
-    margin: 0;
-}
 
 .divnav1 {
     background-color: teal;
     margin: 0;
+    
 }
 
 .divnav2 {
     background-color: maroon;
     margin: 0;
+    
 }
 
 .divnav3 {
     background-color: #FFBF00;
     margin: 0;
+    
 }
 
 .divnav4 {
     background-color: #C46210;
     margin: 0;
-}
-
-/*------------------img*/
-
-img{
-    width: 100%;
-    border: 2px solid black;
-    background: no-repeat center;
-    height: 10%;
-    object-fit: cover;
     
 }
-    
 
+    
 /*------------------general*/
 
 .sub-heading{
@@ -100,32 +106,55 @@ img{
     display: inline-block;
 }
 
+.uppercase {
+    text-transform: uppercase;
+    margin: 0;
+}
+
+/*------------------Main Content*/
+.firstsection{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: "Exo", sans-serif;
+}
+
+.house-front{
+    border-radius: 50%;
+    height: 200px;
+}
+
 /*------------------footer*/
 
 footer {
-   position: fixed;
    bottom: 0px;
    width: 100%;
-   background: #800000;
+   background: maroon;
+   height: 250px;
 }
 
 .main-content{
     display: flex;
+    color: #fff;
+    font-family: "Exo", sans-serif;
 }
 
-.main-content .box{
+.main-content .left-box,
+ .center-box,
+ .right-box{
     flex-basis: 50%;
     padding: 10px 20px;
+    box-sizing: border-box;
 }
 
 .box h2{
     font-size: 1.125rem;
-    font-weight: 600;
+    font-weight: 300;
     text-transform: uppercase;
+    color: #fff;
 }
 
 .box .content{
-    margin: 20px 0 0 0;
+    margin: 10px 0 0 0;
     position: relative;
 }
 
@@ -135,7 +164,7 @@ footer {
     top: -10px;
     height: 2px;
     width: 100%;
-    background: #1a1a1a;
+    background: teal;
 }
 
 .box .content:after{
@@ -143,7 +172,7 @@ footer {
     content: '';
     height: 2px;
     width: 15%;
-    background: #f12020;
+    background: #fff;
     top: -10px;
 }
 
@@ -152,7 +181,7 @@ footer {
 }
 
 .left-box .content .social{
-    margin: 20px 0 0 0;
+    margin: 10px 0 0 0;
 }
 
 .left-box .content .social a{
@@ -162,20 +191,21 @@ footer {
 .left-box .content .social a span{
     height: 40px;
     width: 40px;
-    background: #fafafa;
+    background: teal;
     line-height:40px;
     text-align: center;
     font-size: 18px;
     border-radius: 5px;
     transform: 0.3s;
+    color: #fff;
 }
 
 .left-box .content .social a span:hover{
-    background: #A9A9A9;
+    background: #FFBF00;
 }
 .center-box .content .fas{
     font-size: 1.4375rem;
-    background: #1a1a1a;
+    background: teal;
     height: 45px;
     width: 45px;
     line-height: 45px;
@@ -186,13 +216,14 @@ footer {
 }
 
 .center-box .content .fas:hover{
-    background: #f12020;
+    background: #FFBF00;
 }
 
 .center-box .content .text{
     font-size: 1.0625rem;
     font-weight: 500;
     padding-left: 10px;
+    color: #fff;
 }
 
 .center-box .content .phone{
@@ -201,33 +232,35 @@ footer {
 
 .right-box form .text{
     font-size: 1.0625rem;
-    margin-bottom: 2px;
-    color: #656565;
+    margin-bottom: 2ppx;
+    color: #fff;
 }
 
 .right-box form .msg{
-    margin-top: 10px;
+    margin-top: 5px;
 }
 
 .right-box form input, .right-box form textarea{
     width: 100%;
     font-size: 1.0625rem;
-    background: #151515;
+    background: #fafafa;
     padding-left: 10px;
-    border: 1px solid #222222;
+    border: 1px solid #fafafa;
+    height: 30px;
 }
 
 .right-box form input:focus,
 .right-box form textarea:focus{
-    outline-color: #3498db;
+    outline-color: gray;
 }
 
 .right-box form input{
-    height: 35px;
+    height: 20px;
 }
 
 .right-box form .btn{
-    margin-top: 10px;
+    margin-top: 0px;
+    margin-bottom: 3px;
 }
 
 .right-box form .btn button{
@@ -235,33 +268,36 @@ footer {
     width: 100%;
     border: none;
     outline: none;
-    background: #f12020;
+    background: teal;
     font-size: 1.0625rem;
     font-weight: 500;
     cursor: pointer;
     transition: .3s;
+    color: #fff;
 }
 
 .right-box form .btn button:hover{
-    background: #000;
+    background: #FFBF00;
 }
 
-.botton .center-box{
-    padding: 5px;
+.bottom center{
+    padding: 0px;
     font-size: 0.9375rem;
-    background: #151515;
+    background: teal;
+    margin: 0px;
+    margin-top: 0px;
 }
 
-.botton .center-box span{
-    color: #656565;
+.bottom center span{
+    color: #fafafa;
 }
 
-.botton .center-box a{
-    color: #f12020;
+.bottom center a{
+    color: #FFBF00;
     text-decoration: none;
 }
 
-.botton .center-box a:hover{
+.bottom center a:hover{
     text-decoration: underline;
 }
 
@@ -280,12 +316,15 @@ footer {
         margin: 5px 0; 
     }
 
+    .bottom{
+        bottom: 0px;
+        position: relative;
+    }
+    .bottom center{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
 
 }
 
-
-/*------------------social*/
-
-.fa-customize {
-    font-size: 20px;
-}
