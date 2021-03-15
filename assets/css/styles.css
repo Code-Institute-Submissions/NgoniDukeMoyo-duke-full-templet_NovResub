@@ -126,6 +126,7 @@ a:link {
 /*------------------footer*/
 
 footer {
+    position: fixed;
    bottom: 0px;
    width: 100%;
    background: maroon;
@@ -196,7 +197,7 @@ footer {
     text-align: center;
     font-size: 18px;
     border-radius: 5px;
-    transform: 0.3s;
+    transition: 0.3s;
     color: #fff;
 }
 
