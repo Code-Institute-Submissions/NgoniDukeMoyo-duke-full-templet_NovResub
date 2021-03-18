@@ -22,20 +22,20 @@
 <div>
     <ul id="nav">
         <li class="divnav1 uppercase">
-        <a href="#"> <i class="fas fa-house-user"></i> <span>Home</span></a>
+        <a href="home.html"> <i class="fas fa-house-user"></i> <span>Home</span></a>
     </li>
 
         <li class="divnav2 uppercase">
-            <a href="#"> <i class="far fa-address-card"></i> <span>Host</span></a>
+            <a href="host.html"> <i class="far fa-address-card"></i> <span>Host</span></a>
             </li>
 
 
         <li class="divnav3 uppercase">
-            <a href="#"> <i class="far fa-calendar-alt"> </i> <span>Bookings</span></a>
+            <a href="booking.html"> <i class="far fa-calendar-alt"> </i> <span>Bookings</span></a>
                 </li>
 
                 <li class="divnav4 uppercase">
-            <a href="#"> <i class="far fa-images"></i> <span>Gallery</span></a>
+            <a href="gallery.html"> <i class="far fa-images"></i> <span>Gallery</span></a>
                 </li>
     </ul>
 </div>
@@ -60,13 +60,34 @@
 
                 <div id="bookingcontent">
                 <i class="far fa-calendar-alt" aria-hidden="true"></i>
-                <select id="input-group">
+               <input type="text" id="input-group" placeholder="check-in Date">
+               </div>
+            </div>
 
-                </select>
+           <div id="second-group">
+
+        <div id="bookingcontent">
+                <i class="fas fa-user" aria-hidden="true"></i>
+                <input type="text" id="input-group" placeholder="Last Name">
                 </div>
 
-            </div>
+<div id="bookingcontent">
+   <i class="far fa-envelope" aria-hidden="true"></i> 
+   <input type="email" id="input-group" placeholder="Email">
 </div>
+
+<div id="bookingcontent">
+    <i class="fas fa-user" aria-hidden="true"></i>
+    <select id="input-group" style="background-color: #fafafa;">
+        <option value="">No. of guests</option>
+        <option value="">1-2 persons</option>
+        <option value="">3-5 persons</option>
+        <option value="">6-10 persons</option>
+    </select>>
+</div>
+</div>
+
+<button type="submit" value="submit" id="submit-btn">Book Here</button>
  </section>
 
 
