@@ -5,7 +5,7 @@
     padding: 0;
 }
 
-/*------------------main heading container*/
+/*------------------main heading container Home*/
 
 #mainheadingcontainer {
    position: relative;
@@ -31,7 +31,7 @@
     color: #fafafa;
 }
 
-/*------------------img*/
+/*------------------img home*/
 
 .imagecontainer img{
     width: 100%;
@@ -42,7 +42,7 @@
 }
 
 
-/*------------------Nav Bar*/
+/*------------------Nav Bar home*/
 
 #nav {
     height: 120px;
@@ -123,11 +123,20 @@ a:link {
     margin: 0;
 }
 
-/*------------------Main Content*/
+/*------------------Main Content home*/
+
+.clear{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
 .firstsection{
     margin-top: 10px;
     margin-bottom: 10px;
     font-family: "Exo", sans-serif;
+    text-align: right;
 }
 
 .house-front{
@@ -138,11 +147,12 @@ a:link {
 /*------------------footer*/
 
 footer {
-    position: absolute;
+   position: absolute;
    bottom: 0px;
    width: 100%;
    background: maroon;
    height: 250px;
+   overflow: hidden;
 }
 
 .main-content{
@@ -493,6 +503,8 @@ p{
     filter: drop-shadow(0) brightness(1);
 }
 
+/*------------------Gallery media query*/
+
 @media only screen and (max-width: 800px){
      .row .column{
          flex: 50%;
@@ -500,7 +512,7 @@ p{
 
 }
 
-@media only screen and (max-width: ){
+@media only screen and (max-width: 600px){
     .row .column{
         flex: 100%;
     }
@@ -509,12 +521,12 @@ p{
     }
 }
 
+/*------------------footer media query*/
 
 
-
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 920px) {
     footer{
-        position: relative;
+        position: absolute;
         bottom: 0px;
     }
 
@@ -526,16 +538,5 @@ p{
     .main-content .box{
         margin: 5px 0; 
     }
-
-    .bottom{
-        bottom: 0px;
-        position: relative;
-    }
-    .bottom center{
-        flex-wrap: wrap;
-        flex-direction: column;
-    }
-
-
 }
 
