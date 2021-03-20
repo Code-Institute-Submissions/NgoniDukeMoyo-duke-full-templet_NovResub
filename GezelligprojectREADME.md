@@ -30,3 +30,23 @@ The body provides a small quick read history into the space for a background inf
 
 <!--image-->
 ![Layout plan](assets/images/gezelligreadme.jpg)
+
+<!--features-->
+
+# features
+This project is created in Gitpod workspace and pulled and stored to Github. Gitpod comes with a command line interface which came preset thanks to 
+--Code Institute-- .The project is mostly constructed by HTML and CSS. I only took advantage of Bootstrap (https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css)
+ for the Gallery for create the nice neat columns for the images layout (rows and columns). All featured fonts are font-awesome fonts (version 5.15.2 -
+  https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css). I chose the font "Exo" because of out simple but neat impression which compliments
+  the aim of the website itself.
+
+<!--Challenges faced in Project-->
+  # challenges
+  Currently struggling with the css for my footer. I am trouble shooting the media queries, footer container, the footer positioning, which i think are the problem but
+  its possible to be a big issue to overcome as i am unable to pin-point the issue. I contacted student support and we were not very successful. (20/3)
+
+<!--Features of each Page-->
+  ### Home Page Features
+  ### Gast Page Features
+  ### Booking Page Features
+  ### Gallery Page Features
