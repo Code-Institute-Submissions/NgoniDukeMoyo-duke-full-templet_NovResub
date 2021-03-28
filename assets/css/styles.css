@@ -6,98 +6,57 @@
 }
 
 /*------------------main heading container Home*/
-
-#mainheadingcontainer {
-   position: relative;
-   top: 10px;
-   left: 10px;  
-   padding: 5px;
-   background-color: transparent;
-   border: 2px solid hidden;
-  
-}
-
-.Gezellig{
-    font-family: "Exo",sans-serif;
-    color: #FFBF00;
-    font-weight: 700; 
-    font-size: 30px;
-    position: absolute;
-    right: 20px;
-    top: 20px;
-}
-
-.doveicon{
-    color: #fafafa;
-}
-
 /*------------------img home*/
-
-.imagecontainer img{
-    width: 100%;
-    padding-top: 0%;
-    border: 2px solid black;
-    background: no-repeat center;
-    background-size: contain; 
-}
-
-
 /*------------------Nav Bar home*/
 
-#nav {
-    height: 120px;
-    text-align: center;
-    margin: 5px;
-    position: absolute; 
-    margin-left: 0px;
-    padding: 0px;
-    margin-bottom: 5px;
-
-
+.navcontainer{
+    color: maroon;
+    font-family: "Exo",sans-serif;
 }
-
-
-#nav li {
-    font-size: 15px;
-    padding: 10px;
-    display: inline;
-    font-family: "Exo",sans-serif;  
-}
-
-#nav li span, a{
-    color: #fff;
-}
-
-a:link {
-  color: #fff;
-  background-color: transparent;
-  text-decoration: none;
-}
-
-
 .divnav1 {
     background-color: teal;
-    margin: 0;
-    
+    margin: 15px;
+    padding: 10px;
+   
 }
 
 .divnav2 {
     background-color: maroon;
-    margin: 0;
+    margin: 15px;
+    padding: 10px;
     
 }
 
 .divnav3 {
     background-color: #FFBF00;
-    margin: 0;
+    margin: 15px;
+    padding: 10px;
     
 }
 
 .divnav4 {
     background-color: #C46210;
-    margin: 0;
+    margin: 15px;
+    padding: 10px;
     
 }
+
+li i{
+    color: white;
+}
+
+li i span::before{
+    color: white;
+}
+
+li i span::after{
+    color: white;
+}
+div a img{
+    border-radius: 50px;
+    height: 100px;
+}
+
 
     
 /*------------------general*/
@@ -146,8 +105,7 @@ a:link {
 
 /*------------------footer*/
 
-footer {
-   position: absolute;
+.footernav {
    bottom: 0px;
    width: 100%;
    background: maroon;
