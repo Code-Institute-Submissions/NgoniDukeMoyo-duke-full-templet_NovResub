@@ -31,6 +31,9 @@ The body provides a small quick read history into the space for a background inf
 <!--image-->
 ![Layout plan](assets/images/gezelligreadme.jpg)
 
+After a meeting with my mentor, this will be the new nav and footer approach.
+![layout revised] (assets/images/readme revised.jpg)
+
 <!--features-->
 
 # features
@@ -47,6 +50,14 @@ This project is created in Gitpod workspace and pulled and stored to Github. Git
 
 <!--Features of each Page-->
   ### Home Page Features
+
+  (28th March) Bootstrap 4.1.3 (navbar) with inline style which made it easier to manipulate bootstrap elements. After having a session with my mentor, i was advised
+  to move navbar to the top above all for usability "as soon as a user go on the site there must some standout evidence of what the site is about or navigation systems.
+  Hence i chose to use Boottrap Collapse and positioning for the nav as it moves up top.
+
+Mentor advised on the structure of the CSS which was causing my footer not to work as coded. The issue was alot of overriding css targets to the elements that
+had also had css elements originally e.g targeting footer{} by using footer opposed to div i footer{}.
+This allowed me to fix footer issue in css line 149.
   ### Gast Page Features
   ### Booking Page Features
   ### Gallery Page Features
