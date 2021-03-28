@@ -58,6 +58,15 @@ This project is created in Gitpod workspace and pulled and stored to Github. Git
 Mentor advised on the structure of the CSS which was causing my footer not to work as coded. The issue was alot of overriding css targets to the elements that
 had also had css elements originally e.g targeting footer{} by using footer opposed to div i footer{}.
 This allowed me to fix footer issue in css line 149.
-  ### Gast Page Features
+
+![Bootstrap navbar](assets/images/bootstrapnav1.jpg)
+![Boostrap navbar](assets/images/bootstrapnav2.jpg)
+
+  ### Host Page Features
+  personal profile structure with background image. I chose this approach as it makes the profile standout and clear to the user about the message.
+
   ### Booking Page Features
+  HTML ans CSS form
+
   ### Gallery Page Features
+Bootstrap container fluid,columns and Rows
