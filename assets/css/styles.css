@@ -62,11 +62,7 @@ li i span::before{
 li i span::after{
     color: white;
 }
-
-
-
-
-    
+   
 /*------------------general*/
 
 .sub-heading{
@@ -97,6 +93,23 @@ li i span::after{
 }
 
 /*------------------Main Content home*/
+
+.homebodysection{
+    display: block;
+}
+
+.homeimagesection,
+.contectsection,
+.videosection{
+    box-sizing: border-box;
+    border: 1px transparent teal;
+    padding: 5px;
+}
+
+.videosection{
+    margin: 0 auto;
+    width: 50%;
+}
 
 .clear{
     margin: 0;
@@ -301,7 +314,7 @@ li i span::after{
 }
 
 #form{
-    background-color: maroon;
+    background-color:#8B0000;
     height: 400px;
     width: 800px;
     margin: auto;
@@ -326,17 +339,17 @@ li i span::after{
 #bookingcontent #input-group{
     border: none;
     outline: none;
-    background: transparent;
+    background: #8B0000;
     margin-left: 8px;
     width: 300px;
     color:#fff;
 }
 
 ::placeholder{
-    color: #fafafa;
+    color: #fff;
 }
 
-.fa{
+.far, .fas{
     display: inline-block;
     color: teal;
     border-right: 1px solid #fff;
@@ -361,6 +374,7 @@ li i span::after{
     outline: none;
     padding: 15px;
     font-size: 20px;
+    cursor: pointer;
 }
 
 /*------------------Gallery*/
@@ -445,3 +459,9 @@ p{
     }
 }
 
+/*------------------home page media query*/
+@media screen and (min-width: 768px){
+    .homebodysection{
+        display: flex;
+    }
+}
