@@ -2,31 +2,6 @@
 
 /*------------------main heading container Home*/
 /*------------------jumbotro socials*/
-.jumbotronsocials{
-    margin: 10px 0 0 0;
-    margin-left: 800px;
-}
-
-.jumbotronsocials a{
-    padding: 0 2px;
-}
-
-.jumbotronsocials a span{
-    height: 40px;
-    width: 40px;
-    background: teal;
-    line-height:40px;
-    text-align: center;
-    font-size: 18px;
-    border-radius: 5px;
-    transition: 0.3s;
-    color: #fff;
-}
-
-.jumbotronsocials a span:hover{
-    background: #FFBF00;
-}
-
 /*------------------heading picture*/
 .mainpiccontainer{
     margin: 50px;
@@ -36,6 +11,7 @@
     margin: 50px;
     height: 50px;
 }
+
 /*------------------Nav Bar home*/
 
 .span1{
@@ -59,13 +35,7 @@ li i{
     color: white;
 }
 
-li i span::before{
-    color: white;
-}
 
-li i span::after{
-    color: white;
-}
    
 /*------------------general*/
 
@@ -326,7 +296,7 @@ video{
     height: 400px;
     width: 800px;
     margin: auto;
-    margin-top: 100px;
+    margin-top: 15px;
     opacity: 0.7;
 }
 
@@ -337,14 +307,93 @@ video{
     position: absolute;
 }
 
-#bookingcontent{
+#bookingcontent1{
     border: 1px solid none;
     margin: 10px;
     margin-left: 8px;
     padding: 5px;
 }
 
-#bookingcontent #input-group{
+#bookingcontent2{
+    border: 1px solid none;
+    margin: 10px;
+    margin-left: 8px;
+    padding: 5px;
+}
+
+#bookingcontent3{
+    border: 1px solid none;
+    margin: 10px;
+    margin-left: 8px;
+    padding: 5px;
+}
+
+#bookingcontent4{
+    border: 1px solid none;
+    margin: 10px;
+    margin-left: 8px;
+    padding: 5px;
+}
+#bookingcontent5{
+    border: 1px solid none;
+    margin: 10px;
+    margin-left: 8px;
+    padding: 5px;
+}
+
+#bookingcontent6{
+    border: 1px solid none;
+    margin: 10px;
+    margin-left: 8px;
+    padding: 5px;
+}
+
+#bookingcontent1 #input-group1{
+    border: none;
+    outline: none;
+    background: #8B0000;
+    margin-left: 8px;
+    width: 300px;
+    color:#fff;
+}
+
+#bookingcontent2 #input-group2{
+    border: none;
+    outline: none;
+    background: #8B0000;
+    margin-left: 8px;
+    width: 300px;
+    color:#fff;
+}
+
+#bookingcontent3 #input-group3{
+    border: none;
+    outline: none;
+    background: #8B0000;
+    margin-left: 8px;
+    width: 300px;
+    color:#fff;
+}
+
+#bookingcontent4 #input-group4{
+    border: none;
+    outline: none;
+    background: #8B0000;
+    margin-left: 8px;
+    width: 300px;
+    color:#fff;
+}
+
+#bookingcontent5 #input-group5{
+    border: none;
+    outline: none;
+    background: #8B0000;
+    margin-left: 8px;
+    width: 300px;
+    color:#fff;
+}
+
+#bookingcontent6 #input-group6{
     border: none;
     outline: none;
     background: #8B0000;
@@ -359,7 +408,6 @@ video{
 
 .far, .fas{
     display: inline-block;
-    color: teal;
     border-right: 1px solid #fff;
     padding: 8px;
     margin-left: 8px;
@@ -383,6 +431,10 @@ video{
     padding: 15px;
     font-size: 20px;
     cursor: pointer;
+}
+
+#submit-btn:hover{
+    background: #FFBF00;
 }
 
 /*------------------Gallery*/
@@ -449,24 +501,6 @@ p{
 }
 
 /*------------------footer media query*/
-
-
-@media screen and (max-width: 920px) {
-    .footer{
-        position: relative;
-        bottom: 0px;
-    }
-
-    .main-content{
-        flex-wrap: wrap;
-        flex-direction: column;
-    }
-
-    .main-content{
-        margin: 5px 0; 
-    }
-}
-
 /*------------------home page media query*/
 @media screen and (min-width: 768px){
     .homebodysection{
