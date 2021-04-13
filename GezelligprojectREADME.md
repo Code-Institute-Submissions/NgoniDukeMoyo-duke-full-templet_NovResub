@@ -1,16 +1,44 @@
 <!--Heading-->
-# Gezelling Living (Cosy living)
+# Gezelling Living Website(Cosy living)
 
-An invitation into a space of traquility filled with modern blend of warm and welcoming colors. 
-A space of appriciation for nature and a world of brining modern and nature in a single living space.
+This is the main look for the website. It is designed to be responsive and accessible on mobile and large screen devices. Making it a simple easy
+navigation for all interested visitors.
 
 The aim is to create a platform shwoing creativity that the target audience will take time to appriciate
 as a rented living space. This focuses on beauty with an eye for design and colors more than quantity and the product itself.
 
-<!--UX-->
+<!--UX & User stories-->
+
 # User Experience
 
-This project is targeted at a specific audience that feels the need to stay in a space of authenticity, 
+## User Stories
+### First time visitors Goals
+As a first time visitor, i want to easily understand the main purpose of the website and understand the purspective of the creator's intention of the site.
+As a first time visitor, i want to be able to easily navigate throughout the site to find what is the offer, how much will it cost and where to book.
+As a first time visitor i want see guest reviews located either on their website or through socials of the website.
+As a first time visitir i want to know what makes the business stand-out better than the rest.
+
+### Second Visitors Goals
+As a second visitor i want to find out about any additional updates to the stay or discounts relevant to the stay.
+As a returning visitor i want to find the best way to get in contact with the organisation with any questions i may have.
+
+### Frequent User Goals
+As a Frequent User i want to sign up to the newsletter so that i am emailed any major updates or changes to the website or the accomodation.
+
+
+<!--Design-->
+## Color Scheme
+The main colors used are Maroon, teal and dar yellow.
+I want to go on the wensite and be immidiately capitivated with the colors and the furniture with the way it is displayed, then simply press book.
+
+## Typography
+The Exo font family is the main font used throughout the whole website with San Serif as the fallback font incase the font isnt being imported into the site correctly.
+I chose the font "Exo" because of its simplicity but neat impression which compliments the aim of the website itself.
+
+
+## Imagery
+
+The large heading image is designed to automatically prompt the viewer about the design, colors and idea of the space. This project is targeted at a specific audience that feels the need to stay in a space of authenticity, 
 a space that represent something of value to them •creativity, design and color•. Normally this particular audience 
 can read/sense that feeling as soon as soon as they lay their eyes on the front door of the living space in its failure or success to stand out. 
 If that front door does not represent that symbol then they quickly move on. This website aims to be that front door.
@@ -24,11 +52,7 @@ simplicity in navigation and action is crucial therefore the website has no clat
 The header, navbar and footer in the home page, provide clear and simple info to make it as quick and easy interaction.
 The body provides a small quick read history into the space for a background info to provide symbolism which will be appriciated (aunthenticity).
 
-<!--User Stories-->
-###### Romy 15th March
-"I want to go on the wensite and be immidiately capitivated with the colors and the furniture with the way it is displayed, then simply press book.
-
-<!--image-->
+## wireframes
 ![Layout plan](assets/images/gezelligreadme.jpg)
 
 After a meeting with my mentor, this will be the new nav and footer approach.
@@ -36,12 +60,31 @@ After a meeting with my mentor, this will be the new nav and footer approach.
 
 <!--features-->
 
-# features
-This project is created in Gitpod workspace and pulled and stored to Github. Gitpod comes with a command line interface which came preset thanks to 
---Code Institute-- .The project is mostly constructed by HTML and CSS. I only took advantage of Bootstrap (https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css)
- for the Gallery for create the nice neat columns for the images layout (rows and columns). All featured fonts are font-awesome fonts (version 5.15.2 -
-  https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css). I chose the font "Exo" because of out simple but neat impression which compliments
-  the aim of the website itself.
+## features
+-Responsive on mobile and large screen sizes
+-video imagery
+
+# Technologies used
+## Languages used
+-HTML5
+-CSS3
+
+## Frameworks, Libraries & Programs used
+-Bootstrap 4.4.3 : Bootstrap was used to assist with responsiveness and styling of the website. Bootstrap also was used to create the Gallery's rows and columns for design.
+-Hover.CSS : Hover was used on social Media icons in the footer to add color change indicating option while being hovered over.
+-Google Fonts : Google fonts were used to import the Exo font family into the style.css file which is used on all pages throughout the project.
+-Font Awesome 5.15.2 : Font Awesome was used on all pages throughout the website to add icons for UX purposes.
+-JQuery 3.3.1 : JQuery came with Bootstrap to make the navbar responsive.
+-Git : Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub. 
+-GitHub : GitHub was used to store the projects code after being pushed from Git.
+-Balsamiq :
+Balsamiq was used to create some starting wireframes during the design process
+
+# Testing 
+The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
+-W3C Markup Validator : Results
+-W3C CSS Validator : Results
+ 
 
 <!--Challenges faced in Project-->
   # challenges
