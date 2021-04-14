@@ -84,6 +84,46 @@ Balsamiq was used to create some starting wireframes during the design process
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 -W3C Markup Validator : Results
 -W3C CSS Validator : Results
+
+# Testing User Stories from User Experience
+## First time visitor Goals
+-As a first time visitor i want to easily understand the purpose of the site and get a clear and easy access and view of the offer.
+.When i enter the site users are exposed to a clean and readable navigation bar to got to the page of choice.
+.Users have the option of navigating with the navbar or scroll to the bottom to access footer with socials and contact.
+-As a First time Visitor, i want to be able to easily be able to navigate through the site to find content about the product.
+.The site is designed in the way that the user is not entrapped. At the top of each page has a navigation bar with each link describing the location it will lead.
+.At the bottom of all pages in footer for contact and social media also used as platform for reviews, to ensure the visitor always has somewhere to go.
+-As a First time Visitor, i want to look for testimonials to understand what the users think of the accomodation and if it is trusted.
+.The user can use the socials section to visitor those platforms to see what users think of the accomodation.
+
+## Returning Visitor Goals
+-As a Returning Visitor, i want to find the new updates or discounts on the accomodation.
+.The users will access these updates through the social media platforms which will be regulary updated with offers and updates of the accomodation.
+-As a Returning Visitor, i want to find the best way to get in conact with the host for questions
+.The navbar contains the booking session then when user scrolls to the footer they can clearly see the our contact details taking 90% of the footer.
+They will either use the contact details provided or they can fill out the message form.
+
+## Frequent User Goals
+-As a frequent user, i want to check to if there any new added offers and discounts.
+.Socials to access the everyday updates.
+
+# Further Testing
+-The site was tested on google chrome and safari.
+-The site was views on mobile and large screen devices
+-Alot of test done to ensure that all pages were linking correctly
+-Girlfriend aked to review to point out bugs
+
+# bugs
+-The video here goes off to the right when viewing in mobile screens.
+-The mainbody image is not centered in mobile view.
+
+# Deployment
+
+## GitHub pages
+-The project was deployed to GitHub Pages using the following steps :
+.Log into the GitHub and locate the GitHub Repository
+.At the top
+
  
 
 <!--Challenges faced in Project-->
