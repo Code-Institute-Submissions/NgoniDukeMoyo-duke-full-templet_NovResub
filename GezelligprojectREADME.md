@@ -113,7 +113,7 @@ They will either use the contact details provided or they can fill out the messa
 -Alot of test done to ensure that all pages were linking correctly
 -Girlfriend aked to review to point out bugs
 
-# bugs
+# Bugs
 -The video here goes off to the right when viewing in mobile screens.
 -The mainbody image is not centered in mobile view.
 
