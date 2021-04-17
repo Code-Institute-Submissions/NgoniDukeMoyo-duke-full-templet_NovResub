@@ -1,5 +1,8 @@
 <!--Heading-->
 # Gezelling Living Website(Cosy living)
+![Layout plan](assets/images/projectlooklarge.png)
+![Layout plan](assets/images/projectlookmedium.png)
+![Layout plan](assets/images/projectlookmobile.png)
 
 This is the main look for the website. It is designed to be responsive and accessible on mobile and large screen devices. Making it a simple easy
 navigation for all interested visitors.
@@ -54,9 +57,13 @@ The body provides a small quick read history into the space for a background inf
 
 ## wireframes
 ![Layout plan](assets/images/gezelligreadme.jpg)
+## wireframes
+![Layout plan](assets/images/homewireframe.png)
 
 After a meeting with my mentor, this will be the new nav and footer approach.
-![layout revised] (assets/images/readme revised.jpg)
+![Layout plan](assets/images/readmerevised.jpg)
+
+
 
 <!--features-->
 
@@ -82,8 +89,8 @@ Balsamiq was used to create some starting wireframes during the design process
 
 # Testing 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
--W3C Markup Validator : Results
--W3C CSS Validator : Results
+-W3C Markup Validator : [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fgold-wallaby-cg5h2sg2.ws-eu03.gitpod.io%2F)
+-W3C CSS Validator : [Results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fgold-wallaby-cg5h2sg2.ws-eu03.gitpod.io%2F%23%2Fworkspace%2Fduke-full-templet&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
 # Testing User Stories from User Experience
 ## First time visitor Goals
@@ -112,6 +119,7 @@ They will either use the contact details provided or they can fill out the messa
 -The site was views on mobile and large screen devices
 -Alot of test done to ensure that all pages were linking correctly
 -Girlfriend aked to review to point out bugs
+-Mentor support as testing to point out bugs and user experience issues
 
 # Bugs
 -The video here goes off to the right when viewing in mobile screens.
@@ -119,10 +127,23 @@ They will either use the contact details provided or they can fill out the messa
 
 # Deployment
 
-## GitHub pages
+## GitHub Deployment
 -The project was deployed to GitHub Pages using the following steps :
 .Log into the GitHub and locate the GitHub Repository
-.At the top
+
+# Credits
+## code
+-Bootstrap Library used through out the project, mainly ( Grid systems, Navbar and navbar toogle, gallery)
+
+## content
+-All content was qritten by the developer.
+
+## Media 
+-All images were created by the developer.
+
+## Acknowledgements
+-My mentor for helping through this process
+-Tutor support with alot of bugs
 
  
 
@@ -130,26 +151,14 @@ They will either use the contact details provided or they can fill out the messa
   # challenges
   Currently struggling with the css for my footer. I am trouble shooting the media queries, footer container, the footer positioning, which i think are the problem but
   its possible to be a big issue to overcome as i am unable to pin-point the issue. I contacted student support and we were not very successful. (20/3)
+  - (fix) Mentor helped realise i was using wrong positioning elements and wrong footer targets for the footer in MediaQueries.
+  Issues with the Navbar Bootstrap toogle not dropping down the toogle nav menu
+  -(fix) order of script for JQuery and Bootstrap cdn
+  Issues with the project not staging all the commits and pushing them to Github.
+  - This was caused because of a large video file (150MB) and was stopping all the commits to push.
+  ![Layout plan](assets/images/challenges1.png)
+  ![Layout plan](assets/images/challenges2.png)
+  ![Layout plan](assets/images/challenges3.png)
+  ![Layout plan](assets/images/challenges4.png)
 
-<!--Features of each Page-->
-  ### Home Page Features
 
-  (28th March) Bootstrap 4.1.3 (navbar) with inline style which made it easier to manipulate bootstrap elements. After having a session with my mentor, i was advised
-  to move navbar to the top above all for usability "as soon as a user go on the site there must some standout evidence of what the site is about or navigation systems.
-  Hence i chose to use Boottrap Collapse and positioning for the nav as it moves up top.
-
-Mentor advised on the structure of the CSS which was causing my footer not to work as coded. The issue was alot of overriding css targets to the elements that
-had also had css elements originally e.g targeting footer{} by using footer opposed to div i footer{}.
-This allowed me to fix footer issue in css line 149.
-
-![Bootstrap navbar](assets/images/bootstrapnav1.jpg)
-![Boostrap navbar](assets/images/bootstrapnav2.jpg)
-
-  ### Host Page Features
-  personal profile structure with background image. I chose this approach as it makes the profile standout and clear to the user about the message.
-
-  ### Booking Page Features
-  HTML ans CSS form
-
-  ### Gallery Page Features
-Bootstrap container fluid,columns and Rows

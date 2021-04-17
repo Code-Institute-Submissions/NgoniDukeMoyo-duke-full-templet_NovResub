@@ -119,7 +119,7 @@ video{
 }
 
 .main-content{
-    display: flex;
+    display: inline-flex;
     color: #fff;
     font-family: "Exo", sans-serif;
 }
@@ -194,7 +194,7 @@ video{
     background: teal;
     height: 45px;
     width: 45px;
-    line-height: 45px;
+    line-height: 30px;
     text-align: center;
     border-radius: 50%;
     transition: 0.3s;
@@ -504,6 +504,6 @@ p{
 /*------------------home page media query*/
 @media screen and (min-width: 768px){
     .homebodysection{
-        display: flex;
+        display: block;
     }
 }
