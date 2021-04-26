@@ -35,6 +35,10 @@ li i{
     color: white;
 }
 
+a:link{
+    text-decoration: none;
+}
+
 
    
 /*------------------general*/
@@ -70,6 +74,10 @@ li i{
 
 .homebodysection{
     display: block;
+    background-image: url(../images/fronthomeinside.JPG);
+    background-position: center center;
+    overflow: hidden;
+
 }
 
 .homeimagesection,
@@ -80,8 +88,14 @@ li i{
     padding: 5px;
 }
 
+.contectsection, p{
+color: 	#FFf;
+font-weight: bold;
+
+}
+
 .videocontainer{
-    margin: 0 auto;
+    float: right;
     width: 500px;
 }
 
@@ -104,10 +118,19 @@ video{
 }
 
 .house-front{
-    border-radius: 50%;
-    height: 200px;
+    border-radius: 15%;
+    height: 250px;
+    margin: 10px;
 }
 
+/*------------------Home map*/
+iframe{
+    position: flex;
+    right: 1000px;
+    margin: 15px;
+    padding: 0px;
+
+}
 /*------------------footer*/
 
 .footernav {
@@ -289,6 +312,7 @@ video{
 .bookingbody{
     background-image: url(../images/mainlogo.JPG);
     background-position: center;
+    overflow: hidden;
 }
 
 #form{
@@ -458,6 +482,7 @@ p{
     display: flex;
     flex-wrap: wrap;
     width: 100%;
+    margin-left: 0px;
 }
 
 .row .column{
