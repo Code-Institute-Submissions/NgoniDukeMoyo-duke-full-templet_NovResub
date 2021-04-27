@@ -123,6 +123,37 @@ video{
     margin: 10px;
 }
 
+.homemainhead{
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    color: maroon;
+    text-align: center;
+}
+
+/*------------------profile Card*/
+
+.profile{
+    font-family: "Exo", sans-serif;
+    text-align: center;
+    max-width: 200px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+}
+
+.profile-image{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 0 auto 20px auto;
+    display: block;
+}
+
+.profile-name{
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
 /*------------------Home map*/
 iframe{
     position: flex;
@@ -525,7 +556,15 @@ p{
     }
 }
 
-/*------------------footer media query*/
+/*------------------Booking media query*/
+@media screen and (max-width: 600px){
+    body{
+        display: block;
+    }
+    footer{
+        display: block;
+    }
+}
 /*------------------home page media query*/
 @media screen and (min-width: 768px){
     .homebodysection{
