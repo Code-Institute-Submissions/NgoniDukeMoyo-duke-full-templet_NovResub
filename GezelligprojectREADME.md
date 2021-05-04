@@ -2,7 +2,7 @@
 # Gezelling Living Website(Cosy living)
 ![Layout plan](assets/images/projectlooklarge.png)
 ![Layout plan](assets/images/projectlookmedium.png)
-![Layout plan](assets/images/projectlookmobile.png)
+![Layout plan](assets/images/projectlookmobile2.png)
 
 This is the main look for the website. It is designed to be responsive and accessible on mobile and large screen devices. Making it a simple easy
 navigation for all interested visitors.
@@ -73,57 +73,57 @@ After a meeting with my mentor, this will be the new nav and footer approach.
 
 # Technologies used
 ## Languages used
--HTML5
+-HTML5<br>
 -CSS3
 
 ## Frameworks, Libraries & Programs used
--Bootstrap 4.4.3 : Bootstrap was used to assist with responsiveness and styling of the website. Bootstrap also was used to create the Gallery's rows and columns for design.
--Hover.CSS : Hover was used on social Media icons in the footer to add color change indicating option while being hovered over.
--Google Fonts : Google fonts were used to import the Exo font family into the style.css file which is used on all pages throughout the project.
--Font Awesome 5.15.2 : Font Awesome was used on all pages throughout the website to add icons for UX purposes.
--JQuery 3.3.1 : JQuery came with Bootstrap to make the navbar responsive.
--Git : Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub. 
--GitHub : GitHub was used to store the projects code after being pushed from Git.
+-Bootstrap 4.4.3 : Bootstrap was used to assist with responsiveness and styling of the website. Bootstrap also was used to create the Gallery's rows and columns for design.<br>
+-Hover.CSS : Hover was used on social Media icons in the footer to add color change indicating option while being hovered over.<br>
+-Google Fonts : Google fonts were used to import the Exo font family into the style.css file which is used on all pages throughout the project.<br>
+-Font Awesome 5.15.2 : Font Awesome was used on all pages throughout the website to add icons for UX purposes.<br>
+-JQuery 3.3.1 : JQuery came with Bootstrap to make the navbar responsive.<br>
+-Git : Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.<br> 
+-GitHub : GitHub was used to store the projects code after being pushed from Git.<br>
 -Balsamiq :
-Balsamiq was used to create some starting wireframes during the design process
+Balsamiq was used to create some starting wireframes during the design process<br>
 
 # Testing 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
--W3C Markup Validator : [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fgold-wallaby-cg5h2sg2.ws-eu03.gitpod.io%2F)
--W3C CSS Validator : [Results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fgold-wallaby-cg5h2sg2.ws-eu03.gitpod.io%2F%23%2Fworkspace%2Fduke-full-templet&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+-W3C Markup Validator : [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fgold-wallaby-cg5h2sg2.ws-eu03.gitpod.io%2F)<br>
+-W3C CSS Validator : [Results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fgold-wallaby-cg5h2sg2.ws-eu03.gitpod.io%2F%23%2Fworkspace%2Fduke-full-templet&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)<br>
 
 # Testing User Stories from User Experience
 ## First time visitor Goals
--As a first time visitor i want to easily understand the purpose of the site and get a clear and easy access and view of the offer.
-.When i enter the site users are exposed to a clean and readable navigation bar to got to the page of choice.
-.Users have the option of navigating with the navbar or scroll to the bottom to access footer with socials and contact.
--As a First time Visitor, i want to be able to easily be able to navigate through the site to find content about the product.
-.The site is designed in the way that the user is not entrapped. At the top of each page has a navigation bar with each link describing the location it will lead.
-.At the bottom of all pages in footer for contact and social media also used as platform for reviews, to ensure the visitor always has somewhere to go.
--As a First time Visitor, i want to look for testimonials to understand what the users think of the accomodation and if it is trusted.
-.The user can use the socials section to visitor those platforms to see what users think of the accomodation.
+-As a first time visitor i want to easily understand the purpose of the site and get a clear and easy access and view of the offer.<br>
+.When i enter the site users are exposed to a clean and readable navigation bar to got to the page of choice.<br>
+.Users have the option of navigating with the navbar or scroll to the bottom to access footer with socials and contact.<br>
+-As a First time Visitor, i want to be able to easily be able to navigate through the site to find content about the product.<br>
+.The site is designed in the way that the user is not entrapped. At the top of each page has a navigation bar with each link describing the location it will lead.<br>
+.At the bottom of all pages in footer for contact and social media also used as platform for reviews, to ensure the visitor always has somewhere to go.<br>
+-As a First time Visitor, i want to look for testimonials to understand what the users think of the accomodation and if it is trusted.<br>
+.The user can use the socials section to visitor those platforms to see what users think of the accomodation.<br>
 
 ## Returning Visitor Goals
--As a Returning Visitor, i want to find the new updates or discounts on the accomodation.
-.The users will access these updates through the social media platforms which will be regulary updated with offers and updates of the accomodation.
--As a Returning Visitor, i want to find the best way to get in conact with the host for questions
-.The navbar contains the booking session then when user scrolls to the footer they can clearly see the our contact details taking 90% of the footer.
-They will either use the contact details provided or they can fill out the message form.
+-As a Returning Visitor, i want to find the new updates or discounts on the accomodation.<br>
+.The users will access these updates through the social media platforms which will be regulary updated with offers and updates of the accomodation.<br>
+-As a Returning Visitor, i want to find the best way to get in conact with the host for questions.<br>
+.The navbar contains the booking session then when user scrolls to the footer they can clearly see the our contact details taking 90% of the footer.<br>
+They will either use the contact details provided or they can fill out the message form.<br>
 
 ## Frequent User Goals
--As a frequent user, i want to check to if there any new added offers and discounts.
-.Socials to access the everyday updates.
+-As a frequent user, i want to check to if there any new added offers and discounts.<br>
+.Socials to access the everyday updates.<br>
 
 # Further Testing
--The site was tested on google chrome and safari.
--The site was views on mobile and large screen devices
--Alot of test done to ensure that all pages were linking correctly
--Girlfriend aked to review to point out bugs
--Mentor support as testing to point out bugs and user experience issues
+-The site was tested on google chrome and safari.<br>
+-The site was views on mobile and large screen devices<br>
+-Alot of test done to ensure that all pages were linking correctly<br>
+-Girlfriend aked to review to point out bugs<br>
+-Mentor support as testing to point out bugs and user experience issues<br>
 
 # Bugs
--The video here goes off to the right when viewing in mobile screens.
--The mainbody image is not centered in mobile view.
+-The video here goes off to the right when viewing in mobile screens.<br>
+-The mainbody image is not centered in mobile view.<br>
 
 # Deployment
 
@@ -136,14 +136,17 @@ They will either use the contact details provided or they can fill out the messa
 -Bootstrap Library used through out the project, mainly ( Grid systems, Navbar and navbar toogle, gallery)
 
 ## content
--All content was qritten by the developer.
+-All content was written by the developer.
 
 ## Media 
 -All images were created by the developer.
 
 ## Acknowledgements
--My mentor for helping through this process
--Tutor support with alot of bugs
+-My mentor for helping through this process <br>
+-Tutor support with alot of bugs<br>
+-Colors (https://www.rapidtables.com/web/color/brown-color.html)<br>
+-Video Compress (https://www.youcompress.com/)<br>
+-Google Fonts<br>
 
  
 

@@ -136,8 +136,11 @@ video{
     font-family: "Exo", sans-serif;
     text-align: center;
     max-width: 200px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     padding: 20px;
+    float: right;
+    height: 250px;
+    margin: 10px;
 }
 
 .profile-image{
@@ -323,6 +326,7 @@ iframe{
     padding: 0px;
     font-size: 0.9375rem;
     background: teal;
+    line-height: 1.4;
 }
 
 .bottom center span{
