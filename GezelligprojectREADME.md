@@ -129,7 +129,11 @@ They will either use the contact details provided or they can fill out the messa
 
 ## GitHub Deployment
 -The project was deployed to GitHub Pages using the following steps :
-.Log into the GitHub and locate the GitHub Repository
+.Log into the GitHub and locate the GitHub Repository<br>
+.Go to settings button on the menu<br>
+.Scroll down to pages section<br>
+.under source click the dropdown named "none" and select "Master Branch"<br>
+.Scroll down through the page to find the now published link in GitHub pages section.<br>
 
 # Credits
 ## code
@@ -147,6 +151,10 @@ They will either use the contact details provided or they can fill out the messa
 -Colors (https://www.rapidtables.com/web/color/brown-color.html)<br>
 -Video Compress (https://www.youcompress.com/)<br>
 -Google Fonts<br>
+-CodingNepal (responsive footer)<br>
+-Traversy Media(tutorials)<br>
+-Clever Techie(tutorials)<br>
+-Code Institute (Readme file)<br>
 
  
 
