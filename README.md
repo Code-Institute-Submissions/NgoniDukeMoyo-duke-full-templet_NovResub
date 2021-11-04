@@ -135,6 +135,15 @@ They will either use the contact details provided or they can fill out the messa
 .under source click the dropdown named "none" and select "Master Branch"<br>
 .Scroll down through the page to find the now published link in GitHub pages section.<br>
 
+## Clone Project
+1. On my repos, navigate to the main page of the repository.<br>
+2. Above the list of files, click  Code.<br>
+3. To clone the repository using HTTPS, under "Clone with HTTPS", click the clipboard. To clone the repository using an SSH key, including a certificate issued by your organization's SSH certificate authority, click Use SSH, then click the clipboard. To clone a repository using GitHub CLI, click Use GitHub CLI, then click the clipboard.<br>
+4. Open Terminal.<br>
+5. Change the current working directory to the location where you want the cloned directory.<br>
+6. ype git clone, and then paste the URL you copied earlier.<br>
+7. Press Enter to create your local clone.<br>
+
 # Credits
 ## code
 -Bootstrap Library used through out the project, mainly ( Grid systems, Navbar and navbar toogle, gallery)
