@@ -45,59 +45,62 @@
     </nav>
     <h1 class="text-center p-2 gallerysub-heading">Bookings</h1>
 
-    <section class="bookingbody">
-        <div class="container">
-            <div class="form-group">
-                <div id="form">
-                    <h1 class="text-white text-center">Book Your Stay</h1>
-                    <h3 class="text-white text-center">€100pp</h3>
 
-                    <div id="first-group">
+    <div class="container">
+        <div class="row">
+            <section class="bookingbody col">
+                <div class="form-group">
+                    <div id="form col">
+                        <h1 class="text-white text-center">Book Your Stay</h1>
+                        <h3 class="text-white text-center">€100pp</h3>
 
-                        <div id="bookingcontent1">
-                            <i class="fas fa-user icons" aria-hidden="true"></i>
-                            <input type="text" id="input-group1" placeholder="First name">
+                        <div id="first-group col">
+                            <div id="bookingcontent1">
+                                <i class="fas fa-user icons" aria-hidden="true"></i>
+                                <input type="text" id="input-group1" placeholder="First name">
+                            </div>
+
+                            <div id="bookingcontent2">
+                                <i class="fas fa-mobile-alt icons" aria-hidden="true"></i>
+                                <input type="number" id="input-group2" placeholder="Phone number">
+                            </div>
+
+                            <div id="bookingcontent3">
+                                <i class="far fa-calendar-alt icons" aria-hidden="true"></i>
+                                <input type="text" id="input-group3" placeholder="check-in/-out Date">
+                            </div>
                         </div>
 
-                        <div id="bookingcontent2">
-                            <i class="fas fa-mobile-alt icons" aria-hidden="true"></i>
-                            <input type="number" id="input-group2" placeholder="Phone number">
+                        <div id="second-group col">
+                            <div id="bookingcontent4">
+                                <i class="fas fa-user icons" aria-hidden="true"></i>
+                                <input type="text" id="input-group4" placeholder="Last Name">
+                            </div>
+
+                            <div id="bookingcontent5">
+                                <i class="far fa-envelope icons" aria-hidden="true"></i>
+                                <input type="email" id="input-group5" placeholder="Email">
+                            </div>
+
+                            <div id="bookingcontent6">
+                                <i class="fas fa-user icons" aria-hidden="true"></i>
+                                <select id="input-group6" style="background-color: #8B0000;">
+                                    <option value="">No. of guests</option>
+                                    <option value="">1-2 persons</option>
+                                    <option value="">3-5 persons</option>
+                                    <option value="">6-10 persons</option>
+                                </select>
+                            </div>
                         </div>
 
-                        <div id="bookingcontent3">
-                            <i class="far fa-calendar-alt icons" aria-hidden="true"></i>
-                            <input type="text" id="input-group3" placeholder="check-in/-out Date">
-                        </div>
+                        <button onclick=" window.open('http://google.com','_blank')" type="submit" value="submit"
+                        class="btn btn-light">Book Here</button>
                     </div>
-
-                    <div id="second-group">
-                        <div id="bookingcontent4">
-                            <i class="fas fa-user icons" aria-hidden="true"></i>
-                            <input type="text" id="input-group4" placeholder="Last Name">
-                        </div>
-
-                        <div id="bookingcontent5">
-                            <i class="far fa-envelope icons" aria-hidden="true"></i>
-                            <input type="email" id="input-group5" placeholder="Email">
-                        </div>
-
-                        <div id="bookingcontent6">
-                            <i class="fas fa-user icons" aria-hidden="true"></i>
-                            <select id="input-group6" style="background-color: #8B0000;">
-                                <option value="">No. of guests</option>
-                                <option value="">1-2 persons</option>
-                                <option value="">3-5 persons</option>
-                                <option value="">6-10 persons</option>
-                            </select>
-                        </div>
-                    </div>
-
-                    <button onclick=" window.open('http://google.com','_blank')" type="submit" value="submit"
-                        id="submit-btn">Book Here</button>
                 </div>
-            </div>
+            </section>
         </div>
-    </section>
+    </div>
+
 
 
 
