@@ -103,6 +103,11 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 -As a First time Visitor, i want to look for testimonials to understand what the users think of the accomodation and if it is trusted.<br>
 .The user can use the socials section to visitor those platforms to see what users think of the accomodation.<br>
 
+## Readme Testing
+![readme testing](assets/images/Gallerytesting.png)
+![readme testing](assets/images/indextesting.png)
+![readme testing](assets/images/csstesting.png)
+
 ## Returning Visitor Goals
 -As a Returning Visitor, i want to find the new updates or discounts on the accomodation.<br>
 .The users will access these updates through the social media platforms which will be regulary updated with offers and updates of the accomodation.<br>
