@@ -331,25 +331,29 @@ iframe{
  .right-box form .btn button:hover{
      background: #FFBF00;
  }
- .bottom center{
+ .bottom #center-align{
      padding: 0px;
      font-size: 0.9375rem;
      background: teal;
      line-height: 1.4;
  }
  
- .bottom center span{
+ .bottom #center-align span{
      color: #fafafa;
  }
  
- .bottom center a{
+ .bottom #center-align a{
      color: #FFBF00;
      text-decoration: none;
  }
  
- .bottom center a:hover{
+ .bottom #center-align a:hover{
      text-decoration: underline;
  }
+
+ #center-align {
+    text-align: center;
+  }
 
 /*------------------Booking*/
 
