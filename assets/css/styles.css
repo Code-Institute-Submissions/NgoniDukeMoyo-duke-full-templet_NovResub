@@ -3,14 +3,21 @@
 /*------------------main heading container Home*/
 /*------------------jumbotro socials*/
 /*------------------heading picture*/
-.mainpiccontainer{
-    margin: 50px;
+.mainpiccontainer {
+    max-height: 50vh;
+    width: 100vh;
+}
+
+.img-fluid {
+    max-height: 50vh;
+    width: 100vh;
 }
 .mainpiccontainter img{
     width: 100%;
     margin: 50px;
     height: 50px;
 }
+
 
 /*------------------Nav Bar home*/
 
@@ -71,6 +78,7 @@ a:link{
 }
 
 /*------------------Main Content home*/
+
 
 .homebodysection{
     display: block;
