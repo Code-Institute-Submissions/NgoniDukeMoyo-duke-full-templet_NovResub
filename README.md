@@ -76,7 +76,7 @@ After a meeting with my mentor, this will be the new nav and footer approach.
 -HTML5<br>
 -CSS3
 
-## Frameworks, Libraries & Programs used
+## Frameworks, Versions, Libraries & Programs used
 -Bootstrap 4.4.3 : Bootstrap was used to assist with responsiveness and styling of the website. Bootstrap also was used to create the Gallery's rows and columns for design.<br>
 -Hover.CSS : Hover was used on social Media icons in the footer to add color change indicating option while being hovered over.<br>
 -Google Fonts : Google fonts were used to import the Exo font family into the style.css file which is used on all pages throughout the project.<br>
